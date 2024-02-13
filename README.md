@@ -1,7 +1,8 @@
 # docx
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gingfrederik/docx?sort=semver)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gingfrederik/docx)](https://goreportcard.com/report/github.com/gingfrederik/docx)
-[![GoDoc](https://pkg.go.dev/badge/github.com/gingfrederik/docx?status.svg)](https://pkg.go.dev/github.com/gingfrederik/docx?tab=doc)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/danvergara/docx?sort=semver)
+[![Go Report Card](https://goreportcard.com/badge/github.com/danvergara/docx)](https://goreportcard.com/report/github.com/danvergara/docx)
+[![GoDoc](https://pkg.go.dev/badge/github.com/danvergara/docx?status.svg)](https://pkg.go.dev/github.com/danvergara/docx?tab=doc)
+
 ## Introduction
 docx is a simple library to creating DOCX file in Go.
 
@@ -9,11 +10,11 @@ docx is a simple library to creating DOCX file in Go.
 ### Install
 Go modules supported
 ```sh
-go get github.com/gingfrederik/docx
+go get github.com/danvergara/docx
 ```
 Import:
 ```sh
-import "github.com/gingfrederik/docx"
+import "github.com/danvergara/docx"
 ```
 
 ### Usage
@@ -22,7 +23,7 @@ import "github.com/gingfrederik/docx"
 package main
 
 import (
-	"github.com/gingfrederik/docx"
+	"github.com/danvergara/docx"
 )
 
 func main() {
